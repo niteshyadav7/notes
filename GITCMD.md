@@ -27,8 +27,25 @@
 **STAGE AND SNAPSHOT**
 
 - git add [file name]
+
+# add a file as it looks now to your next commit (stage)
+
 - git commit -m"[descriptive message]"
+
+# commit your staged content as a new commit snapshot
+
 - git status
-- git reset 
+
+# show modified files in working directory, staged for your next commit
+
+- git reset
+
+# unstage a file while retaining the changes in working directory
+
 - git diff
+
+# diff of what is changed but not staged
+
 - git diff --staged
+
+# diff of what is staged but not yet commited
