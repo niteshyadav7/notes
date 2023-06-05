@@ -4,39 +4,39 @@
 
 - git config --global user.name "[name of user]"
 
-# set a name that is identifiable for credit when review version history
+##### set a name that is identifiable for credit when review version history
 
 - git config --global user.email "[email of user]"
 
-# set an email address that will be associated with each history marker
+##### set an email address that will be associated with each history marker
 
 - git config --global color.ui auto
 
-# set automatic command line coloring for Git for easy reviewing
+##### set automatic command line coloring for Git for easy reviewing
 
 **GIT INIT**
 
 - git init
 
-# initialize an existing directory as a Git repository
+##### initialize an existing directory as a Git repository
 
 - git clone [URL]
 
-# retrieve an entire repository from a hosted location via URL
+##### retrieve an entire repository from a hosted location via URL
 
 **STAGE AND SNAPSHOT**
 
 - git add [file name]
 
-# add a file as it looks now to your next commit (stage)
+##### add a file as it looks now to your next commit (stage)
 
 - git commit -m"[descriptive message]"
 
-# commit your staged content as a new commit snapshot
+##### commit your staged content as a new commit snapshot
 
 - git status
 
-# show modified files in working directory, staged for your next commit
+##### show modified files in working directory, staged for your next commit
 
 - git reset
 
@@ -44,38 +44,38 @@
 
 - git diff
 
-# diff of what is changed but not staged
+#### diff of what is changed but not staged
 
 - git diff --staged
 
-# diff of what is staged but not yet commited
+#### diff of what is staged but not yet commited
 
 **BRANCH AND MERGE**
 
 - git branch
 
-# list your branches. a \* will appear next to the currently active branch
+#### list your branches. a \* will appear next to the currently active branch
 
 - git branch [branch name]
 
-# create a new branch at the current commit
+#### create a new branch at the current commit
 
 - git checkout [branch name]
 
-# switch to another branch and check it out into your working directory
+#### switch to another branch and check it out into your working directory
 
 - git merge [branch name]
 
-# merge the specified branch’s history into the current one
+#### merge the specified branch’s history into the current one
 
 - git log
 
-# show all commits in the current branch’s history
+#### show all commits in the current branch’s history
 
 - git diff branchB...branchA
 
-# show the diff of what is in branchA that is not in branchB
+#### show the diff of what is in branchA that is not in branchB
 
 - git rm [file name]
 
-# delete the file from project and stage the removal for commit
+#### delete the file from project and stage the removal for commit
