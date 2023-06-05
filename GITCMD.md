@@ -2,25 +2,33 @@
 
 **GIT SETUP**
 
-- git config --global user.name ["name of user"]
+- git config --global user.name "[name of user]"
+
 # set a name that is identifiable for credit when review version history
-- git config --global user.email ["email of user"]
+
+- git config --global user.email "[email of user]"
+
 # set an email address that will be associated with each history marker
+
 - git config --global color.ui auto
+
 # set automatic command line coloring for Git for easy reviewing
 
-  
 **GIT INIT**
 
+- git init
 
-* git init 
 # initialize an existing directory as a Git repository
-* git clone [URL]
+
+- git clone [URL]
+
 # retrieve an entire repository from a hosted location via URL
-
-
 
 **STAGE AND SNAPSHOT**
 
-
-* 
+- git add [file name]
+- git commit -m"[descriptive message]"
+- git status
+- git reset 
+- git diff
+- git diff --staged
