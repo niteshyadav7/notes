@@ -40,7 +40,7 @@
 
 - git reset
 
-# unstage a file while retaining the changes in working directory
+#### unstage a file while retaining the changes in working directory
 
 - git diff
 
