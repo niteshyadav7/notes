@@ -71,3 +71,11 @@
 - git log
 
 # show all commits in the current branch’s history
+
+- git diff branchB...branchA
+
+# show the diff of what is in branchA that is not in branchB
+
+- git rm [file name]
+
+# delete the file from project and stage the removal for commit
