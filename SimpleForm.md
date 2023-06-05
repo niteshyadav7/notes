@@ -46,9 +46,12 @@ const Form = () => {
         id="name"
         name="name"
         onChange={formik.handleChange}
+        onBlur={formik.handleBlur}
         value={formik.values.name}
       />
-      {formik.errors.name ? <div>{formik.errors.name}</div> : null}
+      {formik.touched.name && formik.errors.name ? (
+        <div>{formik.errors.name}</div>
+      ) : null}
       <br />
       <label htmlFor="email">E-mail:</label>
       <input
@@ -56,9 +59,12 @@ const Form = () => {
         id="email"
         name="email"
         onChange={formik.handleChange}
+        onBlur={formik.handleBlur}
         value={formik.values.email}
       />
-      {formik.errors.email ? <div>{formik.errors.email}</div> : null}
+      {formik.touched.email && formik.errors.email ? (
+        <div>{formik.errors.email}</div>
+      ) : null}
       <br />
       <label htmlFor="password">Password:</label>
       <input
@@ -66,14 +72,18 @@ const Form = () => {
         id="password"
         name="password"
         onChange={formik.handleChange}
+        onBlur={formik.handleBlur}
         value={formik.values.password}
       />
-      {formik.errors.password ? <div>{formik.errors.password}</div> : null}
+      {formik.touched.password && formik.errors.password ? (
+        <div>{formik.errors.password}</div>
+      ) : null}
       <br />
       <button type="submit">Submit</button>
     </form>
   );
 };
 export default Form;
+
 
 ```
