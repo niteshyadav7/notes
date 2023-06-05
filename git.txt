@@ -1,3 +1,0 @@
-hello This is first line
-
-this is 2nd line

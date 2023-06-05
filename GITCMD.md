@@ -49,3 +49,25 @@
 - git diff --staged
 
 # diff of what is staged but not yet commited
+
+**BRANCH AND MERGE**
+
+- git branch
+
+# list your branches. a \* will appear next to the currently active branch
+
+- git branch [branch name]
+
+# create a new branch at the current commit
+
+- git checkout [branch name]
+
+# switch to another branch and check it out into your working directory
+
+- git merge [branch name]
+
+# merge the specified branch’s history into the current one
+
+- git log
+
+# show all commits in the current branch’s history
