@@ -10,3 +10,17 @@
 # set automatic command line coloring for Git for easy reviewing
 
   
+**GIT INIT**
+
+
+* git init 
+# initialize an existing directory as a Git repository
+* git clone [URL]
+# retrieve an entire repository from a hosted location via URL
+
+
+
+**STAGE AND SNAPSHOT**
+
+
+* 
