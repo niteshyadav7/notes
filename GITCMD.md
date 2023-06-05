@@ -2,6 +2,14 @@
 
 **GIT SETUP**
 
+- touch file_name
+
+#### only works on git bash to create a file
+
+- mkdir folder_name
+
+#### to create the folder
+
 - git config --global user.name "[name of user]"
 
 ##### set a name that is identifiable for credit when review version history
@@ -72,10 +80,20 @@
 
 #### show all commits in the current branch’s history
 
+- git branch --d[branch name]
+
+#### By this cmd you can delete the branch which already exist.
+
 - git diff branchB...branchA
 
 #### show the diff of what is in branchA that is not in branchB
 
+# SOME IMP CMD
+
 - git rm [file name]
 
 #### delete the file from project and stage the removal for commit
+
+- git revert <commit_id>
+
+#### Revert commit changes
