@@ -1,4 +1,4 @@
-### GIT COMMONDS
+### GIT Comands
 
 **GIT SETUP**
 
