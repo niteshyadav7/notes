@@ -97,3 +97,16 @@
 - git revert <commit_id>
 
 #### Revert commit changes
+
+
+- start [file_name]
+  
+### to open file 
+
+- mv oldName newName
+
+### to rename the file
+
+- rndir [folderName]
+  
+### to remove folder
